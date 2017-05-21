@@ -1,4 +1,4 @@
-# Firebase Web Codelab - Start code
+# Firebase + Million Kids dashboard
 
 To install the CLI you need to have installed npm which typically comes with NodeJS.
 
