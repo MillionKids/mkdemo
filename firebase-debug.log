@@ -1,0 +1,35 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.9.0
+[debug] Platform:     darwin
+[debug] Node Version: v7.8.0
+[debug] Time:         Sun May 21 2017 02:50:46 GMT-0700 (PDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/D7cxhIbCBgkz38bSOOCRcPWWTDAYpz4xniEz82kavFg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun May 21 2017 02:50:46 GMT-0700 (PDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mkreporting-165200  
+ Sun May 21 2017 02:50:46 GMT-0700 (PDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mkreporting-165200/tokens  
+ Sun May 21 2017 02:50:47 GMT-0700 (PDT)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/huyanh/Documents/dont_go_in_here/friendlychat/web-start'...
+[info] 
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mkreporting-165200  
+ Sun May 21 2017 02:50:48 GMT-0700 (PDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/702897069786/clients/_:getWebAppConfig  
+ Sun May 21 2017 02:50:49 GMT-0700 (PDT)
+[debug] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
