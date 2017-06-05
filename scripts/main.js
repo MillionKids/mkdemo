@@ -72,7 +72,7 @@ FriendlyChat.prototype.loadMessages = function() {
   // Loads the last 12 messages and listen for new ones.
   const setMessage = function (data) {
     const val = data.val();
-    this.displayReport(data.key, val.location, val.conversation, val.name);
+    this.displayReport(data.key, val.location, val.headers, val.name);
   }.bind(this);
   this.messagesRef.limitToLast(12).on('child_added', setMessage);
   this.messagesRef.limitToLast(12).on('child_changed', setMessage);
@@ -234,7 +234,8 @@ FriendlyChat.prototype.displayReport = function(key, location, conversation, pic
   div.querySelector('.name').textContent = `Location: ${location.city}, ${location.regionName}, ${location.countryName}`;
   const messageElement = div.querySelector('.message');
   // original message element, turned into header for report
-  messageElement.textContent = `Device: ${key}`;
+  // messageElement.textContent = `Device: ${key}`;
+  messageElement.textContent = conversation
   // if (text) { // If the message is text.
   //   messageElement.textContent = text;
   //   // Replace all line breaks by <br>.
