@@ -1,5 +1,21 @@
-# Firebase Web Codelab - Start code
+# Firebase + Million Kids dashboard
 
-This folder contains the starting code for the [Firebase: Build a Real Time Web Chat App Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/).
+To install the CLI you need to have installed npm which typically comes with NodeJS.
 
-If you'd like to jump directly to the end and see the finished code head to the [web](../web) directory.
+To install the CLI run the following npm command:
+
+`npm -g install firebase-tools`
+
+To verify that the CLI has been installed correctly open a console and run:
+
+`firebase version`
+
+Start the web server
+
+`firebase serve`
+
+This command should display this in the console:
+
+`Listening at http://localhost:5000`
+
+Navigate to [http://localhost:5000]()
